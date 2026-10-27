@@ -23,6 +23,16 @@ AI PicScrub checks every cleaned copy before offering it. If an AI tag is stored
 **Does it remove invisible watermarks?**  
 No. AI PicScrub removes metadata only. Watermarks that are part of the image's pixels are not affected.
 
+## Terms of use
+
+By using AI PicScrub, you agree to these terms, which add to [Apple's Standard License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/):
+
+- Only clean photos that you own or have permission to modify.
+- Removing AI tags doesn't change how an image was made. Follow the laws and platform rules where you share it, including any that require you to disclose AI-generated or AI-edited content.
+- Don't use AI PicScrub to remove authorship or copyright information from other people's work, or to infringe their rights.
+- Don't use AI PicScrub to deceive, defraud, impersonate or harass anyone.
+- AI PicScrub is provided as is, without warranty. To the extent the law allows, the developer isn't liable for how you use the app or the images it produces.
+
 ## Contact
 
 Email: prange@alum.mit.edu
