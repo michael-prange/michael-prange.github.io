@@ -63,7 +63,7 @@ Some editors and apps can strip all metadata on export. This removes the AI tags
 
 The image itself is never re-encoded. The pixels, the file format, the capture date, location, camera details and HDR are all kept exactly as they were. Each copy is checked for leftover AI tags before it's offered, and if a tag can't be removed you'll see an error instead of a copy that's still tagged.
 
-![AI PicScrub listing the AI tags found in a photo edited with ChatGPT: a C2PA Content Credentials manifest, Content Authenticity Initiative data, an IPTC Digital Source Type of AI-generated, and OpenAI, ChatGPT and gpt-image as generators](images/aipicscrub-detected-tags.png){: width="400"}
+<img src="images/aipicscrub-detected-tags.png" width="400" alt="AI PicScrub listing the AI tags found in a photo edited with ChatGPT: a C2PA Content Credentials manifest, Content Authenticity Initiative data, an IPTC Digital Source Type of AI-generated, and OpenAI, ChatGPT and gpt-image as generators">
 
 *A real photo edited in ChatGPT to remove a person and brighten the colors. AI PicScrub found six AI tags, including one marking it as fully AI-generated. The cleaned copy keeps the same PNG image and is slightly smaller because the tags are gone.*
 
