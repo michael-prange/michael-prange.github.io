@@ -88,4 +88,4 @@ The most common use is for real photographs that were labeled because of a small
 
 AI PicScrub is available for iPhone and iPad on the [App Store](https://apps.apple.com/app/id6823995729). It supports JPEG, HEIC and PNG.
 
-Questions? See the [AI PicScrub support page](/aipicscrub/support.html).
+Questions? See the [AI PicScrub support page](support.md).

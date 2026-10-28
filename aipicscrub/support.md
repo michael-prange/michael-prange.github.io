@@ -9,7 +9,7 @@ AI PicScrub removes AI-provenance metadata (C2PA Content Credentials, IPTC Digit
 ## Frequently asked questions
 
 **Why does Instagram say "AI info" on my photo?**  
-Instagram and Facebook read AI tags that editing tools write into the photo file, even for small edits. [Read why your photo was labeled and how to remove the tag →](/aipicscrub/ai-info-label.html)
+Instagram and Facebook read AI tags that editing tools write into the photo file, even for small edits. [Read why your photo was labeled and how to remove the tag →](ai-info-label.md)
 
 **Does it change my photo's quality?**  
 No. The image data is copied exactly as it is; only the AI-related metadata is removed.
