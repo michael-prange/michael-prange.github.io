@@ -4,7 +4,7 @@ title: AI PicScrub Support
 
 # AI PicScrub Support
 
-AI PicScrub removes AI-provenance metadata (C2PA Content Credentials, IPTC Digital Source Type tags and AI generator names) from your photos, without changing the image itself.
+AI PicScrub removes AI-provenance metadata (C2PA Content Credentials, IPTC Digital Source Type tags and AI generator names) from your photos, without changing the image itself. It doesn't remove invisible watermarks that some AI tools put in the image.
 
 ## Frequently asked questions
 
@@ -24,7 +24,16 @@ JPEG, HEIC and PNG. Photos in other formats that contain no AI metadata are shar
 AI PicScrub checks every cleaned copy before offering it. If an AI tag is stored somewhere it can't remove, you'll see an error instead of a copy that's still tagged.
 
 **Does it remove invisible watermarks?**  
-No. AI PicScrub removes metadata only. Watermarks that are part of the image's pixels are not affected.
+No. AI PicScrub removes metadata only. Watermarks that are part of the image's pixels, like Google's SynthID, stay in the cleaned copy.
+
+**What does a watermark notice on a photo mean?**  
+AI PicScrub found signs of an invisible watermark that it won't remove. The notice says how it was found:
+
+- **Found in the image:** the pixels carry the open watermark that Stable Diffusion adds. It's usually only detectable in an unedited PNG from the generator.
+- **Declared in the metadata:** the photo's Content Credentials or other metadata say a watermark was added.
+- **Usually added by this AI tool:** the metadata names a tool, such as Google Gemini or Meta AI, that watermarks the images it makes.
+
+Most watermarks can't be detected on your device, so a photo may have one even when no notice appears.
 
 ## Terms of use
 
